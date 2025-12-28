@@ -1,10 +1,44 @@
+[user]
+	name = rodoxplo
+	email = apps@rodoxplo.com
+
+[init]
+	defaultBranch = main
+
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
-[user]
-	name = rodoxplo
-	email = rodogutierrez2@gmail.com
-[init]
-	defaultbranch = main
+
+[pull]
+	rebase = true
+
+[rebase]
+	autoStash = true
+
+[fetch]
+	prune = true
+
+[push]
+	autoSetupRemote = true
+
+[rerere]
+	enabled = true
+
+[core]
+	editor = nvim
+	pager = less -FRSX
+
+[color]
+	ui = auto
+
+[alias]
+	st = status -sb
+	co = checkout
+	sw = switch
+	br = branch
+	ci = commit
+	ca = commit --amend
+	lg = log --oneline --decorate --graph --all
+	last = log -1 --stat
