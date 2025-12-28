@@ -29,6 +29,7 @@
 [core]
 	editor = nvim
 	pager = less -FRSX
+	excludesfile = /Users/rodoxplo/.config/git/gitignore
 
 [color]
 	ui = auto
