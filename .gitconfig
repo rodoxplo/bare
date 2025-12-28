@@ -1,6 +1,6 @@
 [user]
 	name = rodoxplo
-	email = apps@rodoxplo.com
+	email = admin@rodoxplo.com
 
 [init]
 	defaultBranch = main
@@ -29,7 +29,7 @@
 [core]
 	editor = nvim
 	pager = less -FRSX
-	excludesfile = /Users/rodoxplo/.config/git/gitignore
+	excludesfile = /Users/rodoxplo/.config/git/ignore
 
 [color]
 	ui = auto
