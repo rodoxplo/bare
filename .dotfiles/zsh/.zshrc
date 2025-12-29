@@ -222,3 +222,6 @@ ls() {
 TRAPZERR() { return 0 }
 precmd() { :; }
 export PATH="/opt/homebrew/opt/python@3.12/bin:$PATH"
+# test git status
+# test leccion 3
+# test git status
